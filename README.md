@@ -52,7 +52,7 @@ class HppicPipeline(object):  #pymongo相关的配置，大部分都可以固定
         return item
 ```
 
-###settings.py
+### settings.py
 ```
 ITEM_PIPELINES = {
     'HPPIC.pipelines.HppicPipeline': 300,
